@@ -17,77 +17,77 @@ const Index = () => {
           <div className="mb-8">
             <AlertTriangle className="h-16 w-16 text-red-600 mx-auto mb-6" />
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Comprendere la <span className="text-red-600">Manosfera</span>
+              Understanding the <span className="text-red-600">Manosphere</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Un'analisi approfondita del fenomeno della manosfera: cosa sono questi gruppi online, 
-              come riconoscerne i segnali e come proteggere i giovani dalla radicalizzazione.
+              An in-depth analysis of the manosphere phenomenon: what these online groups are, 
+              how to recognize their signs, and how to protect young people from radicalization.
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/gruppi">
+            <Link to="/groups">
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
-                Scopri i Gruppi
+                Discover the Groups
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <Link to="/prevenzione">
+            <Link to="/prevention">
               <Button variant="outline" size="lg" className="px-8 py-3">
-                Strategie di Prevenzione
+                Prevention Strategies
               </Button>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Cos'è la Manosfera */}
+      {/* What is the Manosphere */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Cos'è la Manosfera?
+            What is the Manosphere?
           </h2>
           
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
             <p className="text-xl mb-6">
-              Il termine <strong>"manosfera"</strong> nasce come fusione di "man" (uomo) e "blogosfera", 
-              riferendosi a una rete di siti web, forum e blog che discutono di tematiche legate alla mascolinità.
+              The term <strong>"manosphere"</strong> is a fusion of "man" and "blogosphere", 
+              referring to a network of websites, forums, and blogs that discuss topics related to masculinity.
             </p>
             
             <p className="mb-6">
-              Tuttavia, nel tempo, alcune di queste comunità hanno evoluto le loro ideologie in direzioni 
-              più estremiste, creando spazi online dove si diffondono messaggi di odio, misoginia e, 
-              in alcuni casi, incitamento alla violenza contro le donne.
+              However, over time, some of these communities have evolved their ideologies in 
+              more extremist directions, creating online spaces where hate messages, misogyny, and, 
+              in some cases, incitement to violence against women are spread.
             </p>
             
             <p className="mb-8">
-              Questi gruppi utilizzano piattaforme come Reddit, 4chan, TikTok e Telegram per diffondere 
-              le loro ideologie, raggiungendo soprattutto giovani uomini in cerca di identità e appartenenza.
+              These groups use platforms like Reddit, 4chan, TikTok, and Telegram to spread 
+              their ideologies, especially reaching young men seeking identity and belonging.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Cards delle sezioni principali */}
+      {/* Main sections cards */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-            Esplora le Sezioni
+            Explore the Sections
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-lg">Gruppi della Manosfera</CardTitle>
+                <CardTitle className="text-lg">Manosphere Groups</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Scopri i diversi gruppi che compongono la manosfera: Incel, MGTOW, PUA e MRA.
+                  Discover the different groups that make up the manosphere: Incel, MGTOW, PUA, and MRA.
                 </p>
-                <Link to="/gruppi">
+                <Link to="/groups">
                   <Button variant="outline" className="w-full">
-                    Esplora
+                    Explore
                   </Button>
                 </Link>
               </CardContent>
@@ -96,15 +96,15 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <AlertTriangle className="h-12 w-12 text-red-600 mx-auto mb-4" />
-                <CardTitle className="text-lg">Casi Italiani</CardTitle>
+                <CardTitle className="text-lg">Italian Cases</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Analisi di episodi significativi avvenuti in Italia legati alla manosfera.
+                  Analysis of significant episodes that occurred in Italy related to the manosphere.
                 </p>
-                <Link to="/casi-italiani">
+                <Link to="/italian-cases">
                   <Button variant="outline" className="w-full">
-                    Leggi
+                    Read
                   </Button>
                 </Link>
               </CardContent>
@@ -113,15 +113,15 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <Shield className="h-12 w-12 text-green-600 mx-auto mb-4" />
-                <CardTitle className="text-lg">Prevenzione</CardTitle>
+                <CardTitle className="text-lg">Prevention</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Strategie e strumenti per prevenire la radicalizzazione e proteggere i giovani.
+                  Strategies and tools to prevent radicalization and protect young people.
                 </p>
-                <Link to="/prevenzione">
+                <Link to="/prevention">
                   <Button variant="outline" className="w-full">
-                    Impara
+                    Learn
                   </Button>
                 </Link>
               </CardContent>
@@ -130,15 +130,15 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <BookOpen className="h-12 w-12 text-purple-600 mx-auto mb-4" />
-                <CardTitle className="text-lg">Risorse</CardTitle>
+                <CardTitle className="text-lg">Resources</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Contatti utili, numeri di emergenza e risorse per chi ha bisogno di aiuto.
+                  Useful contacts, emergency numbers, and resources for those who need help.
                 </p>
-                <Link to="/risorse">
+                <Link to="/resources">
                   <Button variant="outline" className="w-full">
-                    Accedi
+                    Access
                   </Button>
                 </Link>
               </CardContent>
@@ -147,39 +147,39 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Segnali di allarme */}
+      {/* Warning signs */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-red-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Segnali di Allarme
+            Warning Signs
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-red-700 mb-4">Isolamento Sociale</h3>
+              <h3 className="text-xl font-semibold text-red-700 mb-4">Social Isolation</h3>
               <p className="text-gray-700">
-                Rifiuto delle relazioni con le donne e ritiro dalle interazioni sociali normali.
+                Rejection of relationships with women and withdrawal from normal social interactions.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-red-700 mb-4">Risentimento verso le Donne</h3>
+              <h3 className="text-xl font-semibold text-red-700 mb-4">Resentment Towards Women</h3>
               <p className="text-gray-700">
-                Atteggiamenti di odio, disprezzo o oggettificazione verso l'altro sesso.
+                Attitudes of hatred, contempt, or objectification towards the opposite sex.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-red-700 mb-4">Idealizzazione della Violenza</h3>
+              <h3 className="text-xl font-semibold text-red-700 mb-4">Idealization of Violence</h3>
               <p className="text-gray-700">
-                Giustificazione di atti violenti come risposta a frustrazioni personali.
+                Justification of violent acts as a response to personal frustrations.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-red-700 mb-4">Radicalizzazione Ideologica</h3>
+              <h3 className="text-xl font-semibold text-red-700 mb-4">Ideological Radicalization</h3>
               <p className="text-gray-700">
-                Adozione di visioni del mondo estremiste, polarizzate e rigide.
+                Adoption of extremist, polarized, and rigid worldviews.
               </p>
             </div>
           </div>

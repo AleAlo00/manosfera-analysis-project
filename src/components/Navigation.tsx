@@ -10,10 +10,10 @@ const Navigation = () => {
 
   const navItems = [
     { href: "/", label: "Home", icon: Shield },
-    { href: "/gruppi", label: "Gruppi", icon: Users },
-    { href: "/casi-italiani", label: "Casi Italiani", icon: AlertTriangle },
-    { href: "/prevenzione", label: "Prevenzione", icon: BookOpen },
-    { href: "/risorse", label: "Risorse", icon: Phone },
+    { href: "/groups", label: "Groups", icon: Users },
+    { href: "/italian-cases", label: "Italian Cases", icon: AlertTriangle },
+    { href: "/prevention", label: "Prevention", icon: BookOpen },
+    { href: "/resources", label: "Resources", icon: Phone },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -25,7 +25,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <Shield className="h-8 w-8 text-red-600" />
-              <span className="text-xl font-bold text-gray-900">Manosfera</span>
+              <span className="text-xl font-bold text-gray-900">Manosphere</span>
             </Link>
           </div>
 
