@@ -1,5 +1,4 @@
-
-import { ArrowRight, AlertTriangle, Users, Shield, BookOpen } from "lucide-react";
+import { ArrowRight, AlertTriangle, Shield, BookOpen } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -26,9 +25,9 @@ const Index = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/groups">
+            <Link to="/italian-cases">
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
-                Discover the Groups
+                Discover Italian Cases
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -75,24 +74,7 @@ const Index = () => {
             Explore the Sections
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="hover:shadow-lg transition-shadow duration-300">
-              <CardHeader className="text-center">
-                <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-lg">Manosphere Groups</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Discover the different groups that make up the manosphere: Incel, MGTOW, PUA, and MRA.
-                </p>
-                <Link to="/groups">
-                  <Button variant="outline" className="w-full">
-                    Explore
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
-
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <AlertTriangle className="h-12 w-12 text-red-600 mx-auto mb-4" />

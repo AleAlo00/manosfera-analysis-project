@@ -1,7 +1,6 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Shield, Users, AlertTriangle, BookOpen, Phone } from "lucide-react";
+import { Menu, X, Shield, AlertTriangle, BookOpen, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -10,7 +9,6 @@ const Navigation = () => {
 
   const navItems = [
     { href: "/", label: "Home", icon: Shield },
-    { href: "/groups", label: "Groups", icon: Users },
     { href: "/italian-cases", label: "Italian Cases", icon: AlertTriangle },
     { href: "/prevention", label: "Prevention", icon: BookOpen },
     { href: "/resources", label: "Resources", icon: Phone },
