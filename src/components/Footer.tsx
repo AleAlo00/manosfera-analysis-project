@@ -1,4 +1,3 @@
-
 import { Shield, Mail, Phone, BookOpen, ExternalLink } from "lucide-react";
 
 const Footer = () => {
@@ -86,7 +85,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Information</h3>
             <p className="text-gray-300 text-sm">
-              Research by Christian Devecchi<br />
+              Research by Christian Devecchi, Federico Dambrosi, Alessandro Aloe, and Nicolò D'Addato<br />
               For educational and awareness purposes<br />
               © 2024 - All rights reserved
             </p>
