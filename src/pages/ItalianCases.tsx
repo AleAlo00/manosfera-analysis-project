@@ -40,6 +40,22 @@ const ItalianCases = () => {
       type: "Femicide"
     },
     {
+      title: "Murder of Martina Carbonaro",
+      person: "Antonio Russo",
+      date: "May 2023",
+      location: "Napoli",
+      victims: "1 person killed",
+      description: "Antonio Russo killed Martina Carbonaro after she ended their relationship. The case showed typical patterns of possessive and controlling behavior.",
+      details: [
+        "History of stalking and harassment after breakup",
+        "Inability to accept the end of the relationship",
+        "Showed signs of extreme possessiveness and control",
+        "Online activity linked to misogynistic content",
+        "Represents escalation from psychological to physical violence"
+      ],
+      type: "Femicide"
+    },
+    {
       title: "Sara Campanella Case",
       person: "Not specified",
       date: "March 2024",
