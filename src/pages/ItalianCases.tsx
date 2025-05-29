@@ -1,4 +1,3 @@
-
 import { AlertTriangle, Calendar, MapPin, User, FileText } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -57,7 +56,7 @@ const ItalianCases = () => {
     },
     {
       title: "Sara Campanella Case",
-      person: "Not specified",
+      person: "Stefano Argentino",
       date: "March 2024",
       location: "Italy",
       victims: "1 person killed",
